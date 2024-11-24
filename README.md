@@ -50,6 +50,8 @@ We compared the models' performance visually by plotting the following:
 - **MAE, MSE, RMSE**: These metrics were plotted together to compare how the models performed in terms of error.
 - **R², Explained Variance**: These metrics were plotted separately to assess the models' predictive accuracy and variance explanation.
 
+### Installation
 
+Ensure all datasets from the **dataset** folder are added to your runtime environment, and verify that the file paths in the code match the location of these datasets. Once the paths are correctly configured, you can run all the cells seamlessly.
 
 
