@@ -28,20 +28,20 @@ The data was sourced from the [CKAN portal](https://ckan.himdataportal.com/datas
 
 This project uses the following machine learning models for regression:
 
-1. **Decision Tree Regressor** - A decision tree-based algorithm that splits data into branches to make predictions.
-2. **Random Forest Regressor** - An ensemble method based on multiple decision trees to reduce overfitting and improve accuracy.
-3. **K-Nearest Neighbors Regressor (KNN)** - A simple algorithm that predicts the target variable based on the k-nearest training data points.
-4. **Support Vector Machine Regressor (SVM)** - A linear regression model that finds the optimal hyperplane to minimize error.
+1. **Decision Tree Regressor**
+2. **Random Forest Regressor** 
+3. **K-Nearest Neighbors Regressor (KNN)** 
+4. **Support Vector Machine Regressor (SVM)** 
 
-### Evaluation Metrics
+### Evaluation 
 
-We evaluate the performance of the models using the following metrics:
+| Model         | MAE  | MSE    | RMSE  | R² Score | Explained Variance |
+|---------------|------|--------|-------|----------|---------------------|
+| Decision Tree | 6.46 | 383.91 | 19.59 | 0.94     | 0.94                |
+| Random Forest | 6.66 | 309.28 | 17.59 | 0.96     | 0.96                |
+| KNN           | 6.53 | 659.79 | 25.69 | 0.90     | 0.91                |
+| SVM           | 3.59 | 98.52  | 9.93  | 0.99     | 0.99                |
 
-- **Mean Absolute Error (MAE)**: The average of absolute differences between predicted and actual values.
-- **Mean Squared Error (MSE)**: The average of squared differences between predicted and actual values.
-- **Root Mean Squared Error (RMSE)**: The square root of MSE, interpretable in the same units as the target variable.
-- **R² Score**: The proportion of variance explained by the model. A perfect score is 1.0.
-- **Explained Variance Score**: Measures how well the model explains the variance in the target variable.
 
 ### Performance Visualization
 
